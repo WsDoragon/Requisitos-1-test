@@ -16,7 +16,7 @@ function UserNews() {
 
   return (
     <div style={{backgroundColor: 'lightsalmon'}}>
-      <h1 className="head__text" >Lectura, analisis y etiquetado de noticias 👋</h1>
+      <h1 className="head__text" >Lectura de noticias 👋</h1>
       <div className="App" style={ {backgroundColor: 'moccasin'}}>
         <NewsUser/>
       </div>
