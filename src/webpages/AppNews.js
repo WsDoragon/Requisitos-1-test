@@ -3,6 +3,7 @@ import { Card, Button } from "antd";
 import axios from "axios";
 import "../AppNews.css";
 import News from "../components/News";
+import Etiquetas from "../components/Etiquetas";
 
 const { Meta } = Card;
 
@@ -16,7 +17,8 @@ function AppNews() {
     <div style={{backgroundColor: 'lightsalmon'}}>
       <h1 className="head__text" >Lectura, analisis y etiquetado de noticias 👋</h1>
       <div className="App" style={ {backgroundColor: 'moccasin'}}>
-        <News />
+        <News/>
+
       </div>
       
     </div>

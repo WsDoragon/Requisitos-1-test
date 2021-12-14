@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import AppNews from './AppNews';
+import AppNews from './webpages/AppNews';
 import reportWebVitals from './reportWebVitals';
 import "antd/dist/antd.css";
 import Login from './webpages/login';
 import Webpages from './webpages';
+import App from './App';
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Webpages/>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -68,7 +68,7 @@ const Form = ({onSubmit}) => {
         <Field ref={usernameRef} label="Username:" type="text" />
         <Field ref={passwordRef} label="Password:" type="password" />
         <div>
-          <button style={submitStyle} type="submit">Submit</button>
+          <button style={submitStyle} type="submit" >Submit</button>
         </div>
       </form>
     );

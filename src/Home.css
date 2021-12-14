@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+  background-color: rgb(218, 153, 108);
+}
+
+.home_header{
+  background-color: coral;
+}
